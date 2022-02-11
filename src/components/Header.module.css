@@ -1,0 +1,11 @@
+.logoSize img {
+  height: 45px;
+  width: auto;
+}
+nav a {
+  text-decoration: none;
+}
+p {
+  color: black;
+  font-weight: 600;
+}

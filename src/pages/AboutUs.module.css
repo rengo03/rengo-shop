@@ -1,0 +1,33 @@
+.aboutUs {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.aboutUs img {
+  max-width: 500px;
+  max-height: auto;
+}
+
+@media only screen and (max-width: 992px) {
+  .aboutUs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .aboutUs img {
+    max-height: 100%;
+    max-width: 300px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .aboutUs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .aboutUs img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+}

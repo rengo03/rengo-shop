@@ -1,0 +1,52 @@
+.title1 {
+  color: #fff;
+  border-radius: 15px;
+  background-image: linear-gradient(
+    to right,
+    #1fa2ff 0%,
+    #12d8fa 51%,
+    #1fa2ff 100%
+  );
+  opacity: 0.8;
+  text-align: center;
+  padding: 1rem;
+}
+.title2 {
+  color: #fff;
+  border-radius: 15px;
+  background-image: linear-gradient(
+    to right,
+    #4776e6 0%,
+    #8e54e9 51%,
+    #4776e6 100%
+  );
+  opacity: 0.8;
+  text-align: center;
+  padding: 1rem;
+}
+.title3 {
+  color: #fff;
+  border-radius: 15px;
+  background-image: linear-gradient(
+    to right,
+    #ff8008 0%,
+    #ffc837 51%,
+    #ff8008 100%
+  );
+  opacity: 0.8;
+  text-align: center;
+  padding: 1rem;
+}
+.title4 {
+  color: #fff;
+  border-radius: 15px;
+  background-image: linear-gradient(
+    to right,
+    #f857a6 0%,
+    #ff5858 51%,
+    #f857a6 100%
+  );
+  opacity: 0.8;
+  text-align: center;
+  padding: 1rem;
+}

@@ -1,0 +1,144 @@
+.imgSize img {
+  height: 300px;
+  width: auto;
+}
+p {
+  text-align: justify;
+}
+.parent {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* just colors */
+.orange {
+  color: #ff8008;
+  text-align: center;
+}
+.blue {
+  color: #1fa2ff;
+  text-align: center;
+}
+.violet {
+  color: #8e54e9;
+  text-align: center;
+}
+.pink {
+  color: #f857a6;
+  text-align: center;
+}
+.btn1 {
+  background-image: linear-gradient(
+    to right,
+    #1fa2ff 0%,
+    #12d8fa 51%,
+    #1fa2ff 100%
+  );
+}
+.btn1 {
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border: 0;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+.btn1:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+.btn2 {
+  background-image: linear-gradient(
+    to right,
+    #4776e6 0%,
+    #8e54e9 51%,
+    #4776e6 100%
+  );
+}
+.btn2 {
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border: 0;
+  border-radius: 10px;
+  display: block;
+}
+
+.btn2:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+.btn3 {
+  background-image: linear-gradient(
+    to right,
+    #ff8008 0%,
+    #ffc837 51%,
+    #ff8008 100%
+  );
+}
+.btn3 {
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border: 0;
+  border-radius: 10px;
+  display: block;
+}
+
+.btn3:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+.btn4 {
+  background-image: linear-gradient(
+    to right,
+    #f857a6 0%,
+    #ff5858 51%,
+    #f857a6 100%
+  );
+}
+.btn4 {
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border: 0;
+  border-radius: 10px;
+  display: block;
+}
+
+.btn4:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+/* Breakpoints */
+@media only screen and (max-width: 768px) {
+  .parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
