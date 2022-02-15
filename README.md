@@ -11,7 +11,7 @@ Api used -> [Fake Store API](https://fakestoreapi.com/)
 
 - Click pe orice categorie - va lista produsele corespunzatoare;
 
-- Click pe stire - va duce catre pagina individuala a produsului;
+- Click pe produs - va duce catre pagina individuala a produsului;
 
 - Click pe butonul "Add to cart" al fiecarui produs - produsul va fi adaugata in sectiunea de "Cart";
 
