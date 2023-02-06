@@ -7,14 +7,14 @@ Demo view -> [here](https://rengo-shop.netlify.app);
 I used a simple free Api to create this react app.
 Api used -> [Fake Store API](https://fakestoreapi.com/)
 
-## Functionalitati
+## Functionalities
 
-- Click pe orice categorie - va lista produsele corespunzatoare;
+- Click on any category - it will list the corresponding products;
 
-- Click pe produs - va duce catre pagina individuala a produsului;
+- Click on the product - it will take you to the individual page of the product;
 
-- Click pe butonul "Add to cart" al fiecarui produs - produsul va fi adaugata in sectiunea de "Cart";
+- Click on the "Add to cart" button of each product - the product will be added to the "Cart" section;
 
-- Click pe butonul "Add to wishlist" al fiecarui produs - produsul va fi adaugata in sectiunea de "Wishlist";
+- Click on the "Add to wishlist" button of each product - the product will be added to the "Wishlist" section;
 
-- Click pe sectiunea "Wishlist" - va afisa produsele adaugate la wishlist. La click pe iconita "X" puteti elimina produsul de la wishlist;
+- Click on the "Wishlist" section - it will display the products added to the wishlist. By clicking on the "X" icon, you can remove the product from the wishlist;
